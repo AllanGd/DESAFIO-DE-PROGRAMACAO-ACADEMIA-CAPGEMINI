@@ -64,3 +64,34 @@ ___
 ## IDE utilizada.
 🌘 Eclipse 2021-12
 
+# Como executar os métodos referente a cada questão do desafio de programação
+Na classe `Desafio` foram criado 3 metodos sendo:
+
+1. `questao1` Desafio da escada.
+2. `questao2` Desafio da senha.
+3. `questao3` Desafio do anagrama.
+
+Para executar cada método é utilizado o método `main` da classe `Main`.
+Instancie a classe `Desafio`.
+```java
+    Desafios desafio = new Desafios();
+```
+
+E chame os métodos referente a cada questão.
+```java
+    desafio.questao1(6); // Invocando o método questao1 (escada de *)
+    desafio.questao2("e3"); // Invocando o método questao2 (validação de senha)
+    desafio.questao3("ovo"); // Invocando o método questao3 (verificação de anagrama)
+```
+
+### ❗ Observação
+Cada metodo necessita que seja repassado os seguintes argumentos:
+
+- **questao1** - Necessario que seja enviado como argumento um numero inteiro.
+- **questao2** - Necessario que seja enviado como argumento uma palavra (string).
+- **questao3** - Necessario que seja enviado como argumento uma palavra (string).
+
+# Documentação
+
+A documentação pode ser encontrada na pasta [`docs/`](https://github.com/AllanGd/DESAFIO-DE-PROGRAMACAO-ACADEMIA-CAPGEMINI/tree/main/docs) ou clicando [aqui](https://allangd.github.io/DESAFIO-DE-PROGRAMACAO-ACADEMIA-CAPGEMINI/br/com/capgemini/desafio/package-summary.html).
+    
