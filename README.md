@@ -79,9 +79,9 @@ Instancie a classe `Desafio`.
 
 E chame os métodos referente a cada questão.
 ```java
-    desafio.questao1(6); // Invocando o método questao1 (escada de *)
-    desafio.questao2("e3"); // Invocando o método questao2 (validação de senha)
-    desafio.questao3("ovo"); // Invocando o método questao3 (verificação de anagrama)
+    desafio.questao1(int n); // Invocando o método questao1 (escada de *)
+    desafio.questao2(String senha); // Invocando o método questao2 (validação de senha)
+    desafio.questao3(String palavra); // Invocando o método questao3 (verificação de anagrama)
 ```
 
 ### ❗ Observação
